@@ -1,0 +1,31 @@
+.sidebar{
+  position: fixed;
+  top: 30px;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+
+  background-color:aliceblue;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 99;
+}
+
+.sidebar-icon{
+  width: 17px;
+  height: 17px;
+  margin-top: 2px;
+  padding: 20px;
+  z-index: 1;
+}
+
+.sidebar-icon:hover{
+  background-color: rgb(195, 201, 206);
+  cursor: pointer;
+}
+
+.sidebar-icon:active{
+  background-color: rgb(218, 226, 233);
+}
